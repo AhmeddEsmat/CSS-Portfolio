@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(25, 25, 112, 0.639);
+    position: fixed;
+    padding: 1.5%;
+    color: white;
+    font-size: 1.3rem;
+    z-index: 1;
+}
+.nav-bar-logo {
+    margin: 0 650px 0 0;
+}
+ul.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+    margin: 0 0 0 150px;
+}
+li.li-items a {
+    margin: 0 20px 0 0;
+    color: whitesmoke;
+    text-decoration: none;
+}
+#about {
+    background-color: #e7e9f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% 100%,
+        0% calc(100% - 50px)
+    );
+
+}
+#my-logo {
+    width: 360px;
+    margin-top: 85px;
+}
+#yt {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e9f536;
+}
+#contact {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #777fc8a8;
+
+    clip-path: polygon(
+        0% 0%,
+        100% calc(0% + 50px),
+        100% 100%,
+        0% 100%
+    );
+}
+form {
+    background-color: #c4c7e8;
+    padding: 3vw;
+    margin: 1vw;
+    border-radius: 5px;
+}
+form input {
+    border-radius: 4px;
+}
+form button {
+    padding: 7.5px;
+    margin: 0 35%;
+    background-color: #3e47b035;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    transition-duration: 0.7s;
+}
+button:hover {
+    color: white;
+    background-color: black;
+}
+footer {
+    position: absolute;
+    width: 100%;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9da3d749;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* mouse over element */
+#div-about:hover {
+    color: #3840a6;
+}
+/* selected link
+a:active{
+    color: yellow;
+}
+*/
+a:hover {
+    color: black;
+}
